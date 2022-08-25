@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2E3A46;
+    padding: .5rem 1rem;
+    text-align: left;
+}
+
+header img {
+    height: 30px;
+}
+
+main {
+    height: calc(100% - 52px);
+    padding: 4rem;
+    overflow: auto;
+    background-color: #1E2D3B;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(20% - 2rem);
+    height: 310px;
+    background-color: rgba(255, 255, 255, .05);
+    margin: .75rem 1rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-caption {
+    padding: .5rem 0;
+}
+
+.card-caption h4 {
+    text-transform: uppercase;
+}
+
+.card-caption p {
+    color: rgba(255, 255, 255, .3);
+}
